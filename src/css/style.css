@@ -1,0 +1,36 @@
+body{
+	background-color: #dcdee0;
+}
+.row{
+	margin: 20px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #cacccf;
+	word-wrap: break-word;
+}
+input:focus{
+	border: 0;
+	outline: none;
+}
+.form-control{
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+	border:0;
+	border-bottom:1px solid #eee;
+	box-shadow:0 0 2px 2px #999d9e;
+	border-radius: 5px;	
+}
+.btn-submit:hover{
+	cursor: pointer;
+	box-shadow:0 0 1px 1px #0051ff;
+	font-style: italic;
+}
+.btn-submit{
+	border-radius: 5px;
+	color: #fff;
+	background-color: #007BFF;
+	border: none;
+	height: 28px;
+	width: 100px;
+}
