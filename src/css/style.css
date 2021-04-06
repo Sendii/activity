@@ -43,3 +43,19 @@ input:focus{
 	border-radius: 5px;
 	word-wrap: break-word;
 }
+.close{
+	margin-top: -15px;
+	width: 10px;
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: auto;
+	transition: font-size 0.5s;
+}
+.close:hover{
+	cursor: pointer;
+	font-size: 30px;
+}
+.close:after{
+	display: inline-block;
+	content: "\00d7"; /* This will render the 'X' */
+}

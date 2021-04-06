@@ -28,6 +28,7 @@ class Index extends React.Component{
 		})		
 	}
 	render(){
+		console.log(this.state.data)
 	const content = Object.entries(this.state.data).map((v, k) => {
 		return <Card key={k} text={v[1].name_activity}/>
 	})		
